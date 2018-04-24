@@ -20,12 +20,37 @@ header {
   display: flex;
   flex-grow: 1;
   height: 50px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .nav a {
   display: flex;
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 30px;
   color: seashell;
   text-decoration: underline;
 }
+.mission {
+  display: flex;
+  font-family: "Helvetica" sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  padding: 69px;
+  justify-content: center;
+  align-items: center;
+}
+.mission-image {
+  top: 0;
+  background-image: url("../images/mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .mission-word {
+   margin: auto;
+   width: 100%;
+   text-align: center;
+   background-color: black;
+ }
