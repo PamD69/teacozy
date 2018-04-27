@@ -1,5 +1,9 @@
-body {
-  font-family: "Helvetica" sans-serif;
+* {
+margin: 0;
+padding: 0;
+}
+  body {
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -13,34 +17,30 @@ header {
   position: absolute;
   top: 0;
   align-items: center;
-  width: 100%;
+  padding-left: 10px;
+  width: 98%;
   color: seashell;
 }
 .logo {
   display: flex;
   flex-grow: 1;
   height: 50px;
-  padding-left: 20px;
 }
 .nav a {
   display: flex;
   display: inline-block;
-  padding-right: 30px;
+  padding-right: 10px;
   color: seashell;
   text-decoration: underline;
 }
 .mission {
   display: flex;
-  font-family: "Helvetica" sans-serif;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
   padding: 69px;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
 }
-.mission-image {
-  top: 0;
+.mission-pic {
   background-image: url("../images/mission-background.jpg");
   width: 1200px;
   height: 700px;
@@ -48,9 +48,43 @@ header {
   justify-content: center;
   align-items: center;
 }
- .mission-word {
-   margin: auto;
+ .mission-words {
    width: 100%;
    text-align: center;
    background-color: black;
  }
+.menu {
+height: 700px;
+width: 1000px;
+margin: auto;
+  border: 1px solid white;
+}
+.menu-words {
+  top: 0;
+  text-align: center;
+}
+.teas {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid blue;
+}
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  Width: 300px;
+  margin: 5px;
+}
+.item {
+  padding: 5px;
+}
+.item span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
