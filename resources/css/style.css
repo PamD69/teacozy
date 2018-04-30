@@ -14,12 +14,11 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
-  position: absolute;
   top: 0;
   align-items: center;
   padding-left: 10px;
   width: 98%;
-  color: seashell;
+  background-color: black
 }
 .logo {
   display: flex;
@@ -74,7 +73,6 @@ margin: auto;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .item img {
   height: 200px;
   Width: 300px;
@@ -87,4 +85,42 @@ margin: auto;
   display: block;
   text-align: center;
   padding: 5px;
+}
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("../images/locations-background.jpg");
+  width: 1200px;
+  height: 550px;
+  border: 1px solid white;
+}
+.addresses {
+  display: flex;
+  flex-direction: inline-block;
+}
+.location-words {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  justify-content:space-around;
+  align-items: center;
+  background-color: black;
+}
+.contact {
+ display: flex;
+ flex-direction: column;
+ height: 200px;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-around;
+}
+.copyrght {
+  display: flex;
+  padding-left: 20px;
+  text-align: left;
 }
